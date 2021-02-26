@@ -3,64 +3,43 @@
   margin: 0px;
   font-family: 'Poppins', sans-serif; }
 
-.headercatalogo {
-  background-image: url("../Imagenes/Fondooscuro.jpg");
-  /*	background-color: #221F25;*/
-  box-sizing: border-box;
-  height: 90PX; }
-
 .mainindex {
-  background-image: url("../Imagenes/fondooscuro2.jpg");
+  background-color: #1B2726;
   box-sizing: border-box;
   margin-bottom: 0px;
   height: 1300px; }
 
 .mainquienessomos {
-  background-image: url("../Imagenes/Fondooscuro2.jpg");
-  /*	background-color: #221F25;
-*/
+  background-color: #1B2726;
   box-sizing: border-box;
   margin-bottom: 0px;
   height: 1600px; }
 
 .mainEresEmprendedoroArtesano {
-  background-image: url("../Imagenes/Fondooscuro2.jpg");
-  /*	background-color: #221F25;
-*/
+  background-color: #1B2726;
   box-sizing: border-box;
   margin-bottom: 0px;
   height: 850px; }
 
 .mainpromociones {
-  background-image: url("../Imagenes/Fondooscuro2.jpg");
-  /*	background-color: #221F25;
-*/
+  background-color: #1B2726;
   box-sizing: border-box;
   margin-bottom: 0px;
   height: 550px; }
 
 .maincatalogo {
-  background-image: url("../Imagenes/Fondooscuro2.jpg");
-  /*	background-color: #221F25;
-*/
+  background-color: #1B2726;
   box-sizing: border-box;
   margin-bottom: 0px;
   height: 850px; }
 
 .headerfoot {
-  background-image: url("../Imagenes/Fondooscuro.jpg");
-  /*	background-color: #221F25;
-*/
+  background-color: #343D40;
   box-sizing: border-box;
   height: 350PX; }
 
-header {
-  background-image: url("../Imagenes/Fondo2.jpg");
-  box-sizing: border-box; }
-
-main {
-  background-image: url("../Imagenes/Fondo.jpg");
-  box-sizing: border-box; }
+.headercatalogo {
+  height: 112.78px; }
 
 h1 {
   padding-top: 0px;
@@ -107,7 +86,7 @@ li {
 .fondotitulobr {
   position: sticky;
   display: inline;
-  height: 3px; }
+  padding-top: 96px; }
 
 .amarillo {
   display: inline;
@@ -134,16 +113,18 @@ li {
   height: 3px; }
 
 .wa {
-  height: 80px;
-  padding-top: 25px;
-  padding-left: 200px;
+  /*	height: 80px;
+	padding-top: 25px;*/
+  padding-top: 20px;
+  /*margin-left: 300px;*/
   display: center;
-  text-align: center;
+  text-align: end;
   color: #3BD602;
   font-size: 20px;
   font-weight: bold;
   position: sticky;
-  top: 20px;
+  /*	top: 20px;*/
+  width: 200px;
   animation: animacion 2s infinite; }
 
 @keyframes animacion {
@@ -169,11 +150,6 @@ li {
 
 .imagenes2 {
   display: inline-block; }
-
-footer {
-  background-image: url("../Imagenes/Fondo2.jpg");
-  /*	background-color: #221F25;
-*/ }
 
 .totalfoot {
   padding-top: 0px;
@@ -227,7 +203,8 @@ footer {
 .encuentranos {
   padding-top: 100px;
   color: white;
-  text-align: center; }
+  text-align: center;
+  display: center; }
 
 /************************************** Catalogo ***********************************/
 ol {
